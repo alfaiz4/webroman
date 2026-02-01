@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>michael nih bos</title>
+  <style>
+    body {
+      height: 100vh;
+      background-color: #121212;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: Arial, sans-serif;
+      color: white;
+      overflow: hidden;
+    }
+
+    .text-container {
+      position: relative;
+    }
+
+    .fade-text {
+      opacity: 0;
+      font-size: 2rem;
+      animation-duration: 2s;
+      animation-fill-mode: forwards;
+    }
+
+    .text1 {
+      animation: fadeInOut 4s ease-in-out 0s;
+    }
+
+    .text2 {
+      animation: fadeInOut 4s ease-in-out 2s;
+    }
+
+    .text3 {
+      animation: fadeInOut 4s ease-in-out 4s;
+    }
+
+    @keyframes fadeInOut {
+      0% { opacity: 0; }
+      10% { opacity: 1; }
+      40% { opacity: 1; }
+      50% { opacity: 0; }
+      100% { opacity: 0; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="text-container">
+    <div class="fade-text text1" style="text-align: center">hai </div>
+    <div class="fade-text text2" style="text-align: center">syng bgt ama kmu</div>
+    <div class="fade-text text3" style="text-align: center">web by michael</div>
+  </div>
+
+  <script>
+    // Redirect ke halaman lain setelah animasi selesai
+    setTimeout(() => {
+      window.location.href = "aduh.html"; // Ganti ke URL tujuan
+    }, 7 * 1000); // 3 teks x 6 detik = 18 detik
+  </script>
+
+</body>
+</html>
