@@ -37,11 +37,11 @@ body {
 }
 
 .photo-placeholder img {
-    width: 100%;
-    max-width: 300px;
+    width: 600%;
+    max-width: 900px;
     height: auto;
-    border-radius: 10px;
-    box-shadow: 0 0 20px rgba(255, 255, 255, 0.1); /* Subtle white shadow for elegance */
+    border-radius: 200px;
+    box-shadow: 0 0 180px rgba(255, 255, 255, 0.1); /* Subtle white shadow for elegance */
 }
 
 .instruction {
